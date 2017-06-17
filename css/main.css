@@ -30,7 +30,7 @@ h1{
 
 textarea, input{
   width: 100%;
-  border-radius: 0px;
+  border-radius: 5px;
   border: 1px solid DeepPink;
   margin-bottom: 20px;
 }
@@ -44,6 +44,7 @@ textarea, input{
 .posteo hr {
   border: 1px solid DeepPink;
 }
+
 /* PARA CORAZON */
 .corazon {
   font-size: 40px;
@@ -57,7 +58,42 @@ footer{
   padding: 10px;
 }
 
-
-
 /* Estilos comentarios */
+.comentario{
+  background-color: rgba(226, 142, 207, .8);
+  border: 1px solid DeepPink;
+  border-radius: 10px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding: 1em;
+}
 
+#ale div.comentario:first-child{
+  margin-top: 2em;
+}
+
+.fucsia {
+  color: DeepPink;
+  margin-top: 10px;
+}
+
+.blanco {
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+.btn-style{
+  background-color: DeepPink;
+  border-color: DeepPink;
+  color: #FFF;
+}
+.btn-style:hover{
+  background-color: DeepPink;
+  border-color: DeepPink;
+  opacity: .9;
+}
+.btn-style:active, .btn-style:focus{
+  background-color: #FFF;
+  border-color: DeepPink;
+  color: DeepPink;
+}
